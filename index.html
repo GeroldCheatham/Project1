@@ -3,10 +3,14 @@
 <head>
 <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="main.css">
-	<title>About Me</title>
-	<div class="about-me">
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-	<div class="navbar-header">
+  <title>About Me.</title>
+  <div class="about-me">
+<!-- Wrap all page content here -->
+<div id="wrap">
+  
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-fixed top" data-spy="affix" data-offset-top="60" data-offset-bottom="70" id="navbar">
+  <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -15,7 +19,6 @@
           </button>
           <a class="navbar-brand" href="#">Gerold Cheatham</a>
         </div>
-
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="Index.html">Home</a></li>
@@ -23,73 +26,104 @@
             <li><a href="http://www.w3schools.com/html/default.asp">Resources 1</a></li>
             <li><a href="http://getbootstrap.com/css/">Resources 2</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+          </div>
+        </div>
+        <!--/.nav-collapse -->
       </div>
     </div>
-</div>
-<p>taco</p>
-<P>what happen</P>
 </head>
+
 <body>
 <div class="about-me">
-	<h1>Gerold Cheatham</h1>
+  <h1>Gerold Cheatham</h1>
 </div>
 <div id="more-me">
 <p>Hello my name is Gerold Cheatham and im a 10th grader at Pasadena High School.Im in a program called the App Academy ,Thats how i made this website.The app Academy teaches you how to make websites and video games,you can design them any way you want to, so i chose to make mine really basic and easy to understand. Here are some picture that explain me and what i like.</p>
 </div>
-		<div class="col-xs-2">
-			<nav class="list-group">
-				<a class="list-group-item" href="Index.html">About Me</a>
-			</nav>
-			<nav class="list-group">
-				<a class="list-group-item" href="Projects.html">Projects</a>
-			</nav>
-			<nav class="list-group">
-				<a class="list-group-item" href="http://www.w3schools.com/html/default.asp">Resources</a>
-			</nav>
-			<nav class="list-group">
-				<a class="list-group-item" href="http://getbootstrap.com/css/">Resources 2</a>
-			</nav>
-		</div>
+    <div class="col-xs-2">
+      <nav class="list-group">
+        <a class="list-group-item" href="Index.html">About Me/Gallery</a>
+      </nav>
+      <nav class="list-group">
+        <a class="list-group-item" href="Projects.html">Projects</a>
+      </nav>
+      <nav class="list-group">
+        <a class="list-group-item" href="http://www.w3schools.com/html/default.asp">Resources</a>
+      </nav>
+      <nav class="list-group">
+        <a class="list-group-item" href="http://getbootstrap.com/css/">Resources 2</a>
+      </nav>
+    </div>
 
-	</div>
+  </div>
 </div>
 <!--A paragraph with an image. The image floats to the left of the text. We have used the CSS "float" property because the align attribute is deprecated in HTML 4,
 and not supported in HTML5.-->
 <!--<a href="">
- <p><img src="" alt="" height="228" style="0"></p>
+ <p><img class= "img-responsive"src="" alt="" height="228" style="0"></p>
  </a>-->
 <!--I have added "border:0" to prevent IE9 (and earlier) from displaying a border around the image.-->
+<div class="col-xs-10">
+<div class="row">
+<div class="col-xs-6">
 <a href="http://www.mccormick.com/-/media/Recipe%20Photos/McCormick/Main%20Dishes/787x426/Fiesta%20Tacos.ashx">
- <p><img src="http://www.mccormick.com/-/media/Recipe%20Photos/McCormick/Main%20Dishes/787x426/Fiesta%20Tacos.ashx" alt="Taco" height="228" style="0">Tacos will save your life one day</p>
+ <p><img class="img-responsive" src="http://www.mccormick.com/-/media/Recipe%20Photos/McCormick/Main%20Dishes/787x426/Fiesta%20Tacos.ashx" alt="Taco" height="250" style="0">Tacos will save your life one day</p>
  </a>
  <p>Taco its a way of life. If a conversation gets boring just start talking
   taco. Tacos Taco Taco Taco Taco Tacos Taco. A taco will nvr let you down 
   if you need a friend just make a taco.So i have one last question WHO WANTS
   A TACO!!!</p>
 
- <a href="http://lethalsquirts.files.wordpress.com/2014/07/gamer.jpg"> <p><img src="http://lethalsquirts.files.wordpress.com/2014/07/gamer.jpg" alt="Gamer Pic" height="228" style="0">This is the life i choose</p>
+</div>
+<div class="col-xs-6">
+ <a href="http://lethalsquirts.files.wordpress.com/2014/07/gamer.jpg"> <p><img class="img-responsive" src="http://lethalsquirts.files.wordpress.com/2014/07/gamer.jpg" alt="Gamer Pic" height="228" style="0">This is the life i choose</p>
  </a>
  <p>If you dont know at least half of these people then we cant be friends 
  i already know almost all of then and what games they played in these 
  were and still are some of my favorite childhood games and i still play 
  them on my XBOX One</p>
 
-<a href="http://86bb71d19d3bcb79effc-d9e6924a0395cb1b5b9f03b7640d26eb.r91.cf1.rackcdn.com/wp-content/uploads/2013/05/xbox-one-console-image.jpg"><p><img src="http://86bb71d19d3bcb79effc-d9e6924a0395cb1b5b9f03b7640d26eb.r91.cf1.rackcdn.com/wp-content/uploads/2013/05/xbox-one-console-image.jpg" alt="XboxOne" height="228" style="0">Oh yeah remember that XboxOne I won </p>
+</div>
+<div class="row">
+<div class="col-xs-6">
+<a href="http://86bb71d19d3bcb79effc-d9e6924a0395cb1b5b9f03b7640d26eb.r91.cf1.rackcdn.com/wp-content/uploads/2013/05/xbox-one-console-image.jpg"><p><img class="img-responsive" src="http://86bb71d19d3bcb79effc-d9e6924a0395cb1b5b9f03b7640d26eb.r91.cf1.rackcdn.com/wp-content/uploads/2013/05/xbox-one-console-image.jpg" alt="XboxOne" height="228" style="0">Oh yeah remember that XboxOne I won </p>
  </a>
 <p>The great dispute between the XBOX One and the PS4 which is better 
 honestly since i hav both then i have to say that the XBOX One is better 
 for shooting games and the PS4 it better for Sportts </p>
-
-<a href="http://cdn.inquisitr.com/wp-content/uploads/2014/02/ariana-grande-headshot-665x385.jpg"> <p><img src="http://cdn.inquisitr.com/wp-content/uploads/2014/02/ariana-grande-headshot-665x385.jpg" alt="Ariana Grande" height="228">The Bae. She has to be one of my favorite female artists of all time
+</div>
+<div class="col-xs-6">
+<a href="http://cdn.inquisitr.com/wp-content/uploads/2014/02/ariana-grande-headshot-665x385.jpg"> <p><img class="img-responsive" src="http://cdn.inquisitr.com/wp-content/uploads/2014/02/ariana-grande-headshot-665x385.jpg" alt="Ariana Grande" height="228">The Bae. She has to be one of my favorite female artists of all time</a>
 </p>
 </a>
 <p>To me she makes awsome music and i love to listen to her music and 
 many other music artists that i listen to for example big sean lil wayne 
 nicki minaje (i know i spelled that wrong) thats all i can think of for 
 right now</p>
+</div>
+</div>
 
-<script type="text/javascript" src="js/main.js"></script>
+<div class="row">
+<div class="col-xs-6">
+<p><img class= "img-responsive" data-original-width="222" data-original-height="145" data-padding-top="127" data-id="uMhmh3t9o7PX2" data-image_url="http://media.giphy.com/media/uMhmh3t9o7PX2/giphy.gif" data-bitly_gif_url="http://gph.is/1cqCKOd" data-mp4_url="http://media.giphy.com/media/uMhmh3t9o7PX2/giphy.mp4" data-still="http://media.giphy.com/media/uMhmh3t9o7PX2/giphy_s.gif" data-tumblr_share_url="http://media.giphy.com/media/uMhmh3t9o7PX2/giphy-tumblr.gif" data-gif_id="uMhmh3t9o7PX2" item_prop="content_url" id="gif" class="a-gif" src="http://media.giphy.com/media/uMhmh3t9o7PX2/giphy.gif" alt="football animated GIF" style="width: 612px; height: 400px" width="612" height="400">this is my life this is my luxury this is what i do i play and when i play i play hard i put all my life in what i do who i am whereb i stand is because i worked for it not because anyone put me there or because i just woke up one day and decided i was gunna be the best i can be no i worked for it and i acheived and earned it i am a football player and proud to be one</p>
+</div>
+<div class="col-xs-6">
+<p><img class= "img-responsive"data-original-width="565" data-original-height="263" data-padding-top="68" data-id="IST8yu6kv7YGI" data-image_url="http://media.giphy.com/media/IST8yu6kv7YGI/giphy.gif" data-bitly_gif_url="http://gph.is/19Sftn2" data-mp4_url="http://media.giphy.com/media/IST8yu6kv7YGI/giphy.mp4" data-still="http://media.giphy.com/media/IST8yu6kv7YGI/giphy_s.gif" data-tumblr_share_url="http://media.giphy.com/media/IST8yu6kv7YGI/giphy-tumblr.gif" data-gif_id="IST8yu6kv7YGI" item_prop="content_url" id="gif" class="a-gif" src="http://media.giphy.com/media/IST8yu6kv7YGI/giphy.gif" alt="football animated GIF" style="width: 724px; height: 337px" width="724" height="337">this hit is from the game the New England Patriots played against the Baltimore Ravens in the Playoffs</p>
+</div>
+</div>
+
+<div class="row">
+<div class="col-xs-6">
+<p><img class="img-responsive" data-original-width="400" data-original-height="225" data-padding-top="87" data-id="xDMUZyR1rAeNW" data-image_url="http://media.giphy.com/media/xDMUZyR1rAeNW/giphy.gif" data-bitly_gif_url="http://gph.is/10INs1t" data-mp4_url="http://media.giphy.com/media/xDMUZyR1rAeNW/giphy.mp4" data-still="http://media.giphy.com/media/xDMUZyR1rAeNW/giphy_s.gif" data-tumblr_share_url="http://media.giphy.com/media/xDMUZyR1rAeNW/giphy-tumblr.gif" data-gif_id="xDMUZyR1rAeNW" item_prop="content_url" id="gif" class="a-gif" src="http://media.giphy.com/media/xDMUZyR1rAeNW/giphy.gif" alt="football animated GIF" style="width: 711px; height: 400px" width="711" height="400">this is where the text goes</p>
+</div>
+
+<div class="col-xs-6">
+<p><img class= "img-responsive"data-original-width="640" data-original-height="360" data-padding-top="20" data-id="hyygtoqiPLsvm" data-image_url="http://media.giphy.com/media/hyygtoqiPLsvm/giphy.gif" data-bitly_gif_url="http://gph.is/17gD7yJ" data-mp4_url="http://media.giphy.com/media/hyygtoqiPLsvm/giphy.mp4" data-still="http://media.giphy.com/media/hyygtoqiPLsvm/giphy_s.gif" data-tumblr_share_url="http://media.giphy.com/media/hyygtoqiPLsvm/giphy-tumblr.gif" data-gif_id="hyygtoqiPLsvm" item_prop="content_url" id="gif" class="a-gif" src="http://media.giphy.com/media/hyygtoqiPLsvm/giphy.gif" alt="oreos animated GIF" style="width: 711px; height: 400px" width="711" height="400">when you go into your backpack after you just ate your last pack of oreos............and you find another pack</p>
+</div>
+</div>
+</div>
+
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
