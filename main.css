@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background: purple;
 	color: black;
 }
 div {
@@ -19,5 +19,6 @@ div {
 }
 h1 {
 
-	text-align: center;
+	text-align: center;'
+	list-style-image: center;
 }
