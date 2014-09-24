@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background: purple;
 	color: black;
 }
 div {
@@ -7,7 +7,7 @@ div {
 	border-width: 5px;
 	border-color: purple;
 	padding: 30px;
-	background-color: white;
+	background-color: purple;
 
 } 
 
@@ -33,39 +33,3 @@ h1 {
 	list-style-image: center;
 
 }
-
-#game-area {
-	margin:0px;
-	padding:0px;
-}
-
-#game-area:focus { outline: none; }
-
-a.snake-link, a.snake-link:link, a.snake-link:visited {
-  color: #FCFC54; 
-}
-
-a.snake-link:hover {
-  color: #FfFf54; 
-}
-
-.snake-pause-screen {
-    font-family: Verdana, arial, helvetica, sans-serif; 
-    font-size: 14px;
-    position:absolute;
-    width:300px;
-    height:80px;
-    text-align:center;
-    top:50%;
-    left:50%;
-    margin-top:-40px;
-    margin-left:-150px;
-    display:none;
-    background-color:black;
-    color:white;
-}
-
-.snake-panel-component {
-    position: absolute;
-    font-family: Verdana, arial, helvetica, sans-serif; 
-    font-size: 14px;
