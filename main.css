@@ -1,5 +1,5 @@
 body {
-	background: white;
+	background: purple;
 	color: black;
 }
 div {
@@ -7,13 +7,13 @@ div {
 	border-width: 5px;
 	border-color: purple;
 	padding: 30px;
-	background-color: white;
+	background-color: purple;
 
 } 
 
 .container { 
 	border-color: purple;
-	background-color: white;
+	background-color: purple;
 } 
 .nav {
 	width: 10000;
@@ -26,8 +26,9 @@ div {
 
 .row {
 	border-color: purple;
-	background-color: white;
+	background-color: purple;
 }
+
 h1 {
 
 	text-align: center;
@@ -35,15 +36,33 @@ h1 {
 
 }
 
-@media (max-width: 320px) {
+h2 {
+	text-align: center;
+}
+
+@media (max-width: 310px) {
 	#tool {
-		margin: auto 0;
+		margin: auto;
 		padding-top: 32%;
 		text-align: center;
 	}
-
-
+	.about-me {
+		width: 100%;
+	}
+	.col-xs-2 {
+		width: 100%;
+	}
+	.col-xs-10 {
+		width: 100%;
+	}
+	.col-xs-6 {
+		width: 100%;
+	}
+	.row {
+		width: 100%;
+	}
+	.col-xs-12 {
+		width: 100%;
+	}
 }
-p {
-	text-align: center;
-}
+
